@@ -23,7 +23,7 @@ body {font-family: 'Lato', sans-serif;
   box-shadow: 0 4px 18px 0 black;
   display: block;
   background-color: rgb(255, 255, 255,0.1);
-  font-weight: lighter;
+  font-weight: normal;
   color:#000000;
 }
 .tabcontent {
@@ -154,7 +154,7 @@ body {font-family: 'Lato', sans-serif;
   border-radius: 5px;
   color: #000000;
   padding-left: 1%;
-  font-weight: lighter;
+  font-weight: normal;
   /* padding-top: 6px; */
   padding-bottom: 1%;
   width: 30%;
@@ -167,7 +167,7 @@ body {font-family: 'Lato', sans-serif;
   border-radius: 7px;
   color: #000000;
   line-height: 25px;
-  font-weight: lighter;
+  font-weight: normal;
   width: 100%;
   overflow-x: auto;
   
@@ -179,7 +179,7 @@ body {font-family: 'Lato', sans-serif;
   border-radius: 7px;
   color: #000000;
   line-height: 25px;
-  font-weight: lighter;
+  font-weight: normal;
   width: 100%;
   overflow-x: auto;
   /*background-image: url('./images/AC.jpg');
@@ -197,7 +197,7 @@ body {font-family: 'Lato', sans-serif;
   border-radius: 7px;
   color: #000000;
   line-height: 25px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 #edu_act{
@@ -206,7 +206,7 @@ body {font-family: 'Lato', sans-serif;
   border-radius: 7px;
   color: #000000;
   line-height: 25px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .edu_conts, #prof_para, .proj_cont_h_intro {
@@ -219,7 +219,7 @@ body {font-family: 'Lato', sans-serif;
   border-radius: 7px;
   color: #000000;
   line-height: 25px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 
@@ -242,7 +242,7 @@ body {font-family: 'Lato', sans-serif;
   width: 37%;
   vertical-align: top;
   margin-left: 10%;
-  font-weight: lighter;
+  font-weight: normal;
   line-height: 23px;
 }
 
@@ -272,7 +272,7 @@ body {font-family: 'Lato', sans-serif;
   color:#000000;
   padding-top: 10px;
   margin: 0;
-  font-weight: lighter;
+  font-weight: normal;
 }
 #edu_table a{
   color:#000000;
@@ -334,7 +334,7 @@ body {font-family: 'Lato', sans-serif;
 #profession {
   box-shadow: 0 4px 18px 0 black;
   color:#000000;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 
@@ -385,7 +385,7 @@ body {font-family: 'Lato', sans-serif;
   position: relative;
   
   color: #000000;
-  font-weight: lighter;
+  font-weight: normal;
   
 }
 #last_ele{
@@ -410,7 +410,7 @@ body {font-family: 'Lato', sans-serif;
 
 
 #intro_2{
-  font-weight: lighter;
+  font-weight: normal;
   color: #72ab00;
   padding-left: 15px;
   font-size: large;
