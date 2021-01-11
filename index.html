@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+   <head >
+      <!--<link rel="stylesheet" href="style.css">-->
+      <title>Rakesh Nagaraju's Profile</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <link href="style.css" type="text/css" rel="stylesheet">
+      <link  type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+      <div style='height:135px;' id = 'bmenu1' class = 'bmenu' >
+        <a style='color:black' target="_blank" href="./images/download.png">
+        <img class= 'headerimg' src="./images/download.png"  alt="Profile Photo" width="85vw"> 
+        </a>
+        <div style='display: inline;'>
+        <p class= 'header'> <u style='text-decoration:none; color:#72ab00;'>RAKESH</u><u style='text-decoration:none;'> NAGARAJU</u></p><br>
+        <div id ='contact' class="contact">
+          <a target = '_blank' href="https://www.linkedin.com/in/rakesh-nagaraju" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a target = '_blank' href="https://github.com/Rakesh-Nagaraju" style='background-color: black;'><i class="fa fa-github"></i></a> 
+          <a target = '_blank' href="https://www.facebook.com/nrake.hrbr" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a target = '_blank' href="mailto:rakenju@gmail.com?cc=rakesh.nagaraju@sjsu.edu" class="google"><i class="fa fa-google"></i></a>
+        </div>
+      </div>
+      </div>
+
+      <div id = 'bmenu1' class='menu' >
+      <div id = 'tabs' class='tab'>
+          <a class="tablinks" onclick="openCity(event, 'home');myFunction1() " >Home</a>
+          <a class="tablinks" onclick="openCity(event, 'education');myFunction()" >Academics</a>
+          <a class="tablinks" onclick="openCity(event, 'profession');myFunction()" >Professional Experience</a>
+          <a class="tablinks" onclick="openCity(event, 'project');myFunction()" >Projects</a>
+          <a class="tablinks" onclick="openCity(event, 'awards');myFunction()" >Certification & Awards</a>
+          <a class="tablinks" onclick="openCity(event, 'cv');myFunction()">CV / Resume</a>
+          <a class="tablinks icon" href="javascript:void(0);" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+      </div> 
+      </div>  
+   </head>
+   <body onload="openNav()">
+    <script src="main.js" async></script>
+    
+    <div id="myNav" class="overlay"><br>
+      <div class="overlay-content">
+        <a target="_blank" href="./images/download.png">
+        <img style = "box-shadow: 0 1px 8px 0 whitesmoke;" src="./images/download.png"  alt="Profile Photo" width="85vw"> 
+        </a>
+        
+        <p style = "font-size: 275%;margin:1.5vw;"><u style = "color:#72ab00;text-decoration: none;">RAKESH</u><u style = "color: #818181;;text-decoration:none;"> NAGARAJU<br></u>
+        <div class="icon-bar">
+          <a target = '_blank' href="https://www.linkedin.com/in/rakesh-nagaraju" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a target = '_blank' href="https://github.com/Rakesh-Nagaraju" style='background-color: black;'><i class="fa fa-github"></i></a> 
+          <a target = '_blank' href="https://www.facebook.com/nrake.hrbr" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a target = '_blank' href="mailto:rakenju@gmail.com?cc=rakesh.nagaraju@sjsu.edu" class="google"><i class="fa fa-google"></i></a> 
+        </div>
+      </p><br>
+        <div style = 'text-align: center;'class = "Aboutme">
+            <i>Hi, Welcome...!&nbsp&nbsp&nbsp  My name is Rakesh Nagaraju.</i>
+            <br> I am a Software developer, currently pursuing Master's in Computer Science. <br>
+            Residing in San Jose, I am <strong>open to work</strong> and am currently looking for a <strong>Full-time position</strong> in field of Software development. 
+            <hr> 
+        </div><br>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <a id ='top_but' onclick="closeNav();openCity(event, 'home')" href="#"><img style="background-color: whitesmoke; 
+                border-radius: 7px; width:35%;margin-top: 10%;" src="./images/home_icon.jpg" alt="Home"></a>
+              <div class="container">
+                <h3 class ='title'>Home</h3>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <a id ='top_but' onclick="closeNav();openCity(event, 'education')" href="#"><img style="background-color: whitesmoke; 
+                border-radius: 7px; width:35%;margin-top: 10%;" src="./images/study_icon1.png" alt="Academics"></a>
+              <div class="container">
+                <h3 class ='title'>Study</h3>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <a id ='top_but' onclick="closeNav();openCity(event, 'profession')" href="#"><img style="background-color: whitesmoke; 
+                border-radius: 7px; width:35%;margin-top: 10%;" src="./images/work_study1.png" alt="Profession"></a>
+              <div class="container">
+                <h3 class ='title'>Work</h3>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <a id ='top_but' onclick="closeNav();openCity(event, 'project')" href="#"><img style="background-color: whitesmoke; width:35%;
+                border-radius: 7px; margin-top: 10%;" src="./images/Project_icon.png" alt="Projects"></a>
+              <div class="container">
+                <h3 class ='title'>Projects</h3>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <a id ='top_but' onclick="closeNav();openCity(event, 'awards')" href="#"><img style="background-color: whitesmoke; 
+                border-radius: 7px; width:35%;margin-top: 10%;" src="./images/Awards_icon.jpg" alt="Awards"></a>
+              <div class="container">
+                <h3 class ='title'>Awards</h3>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <a id ='top_but' onclick="closeNav();openCity(event, 'cv')" href="#"><img style="background-color: whitesmoke; 
+                border-radius: 7px; width:35%;margin-top: 10%;" src="./images/cv_icon1.png" alt="CV"></a>
+              <div class="container">
+                <h3 class ='title'>CV</h3>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+      <div class = "ex_btn">
+        <button style="margin-bottom: 3%;display: list-item; text-align: center" onclick="closeNav(); openCity(event, 'home')" title = "Swipe Up">&#10005;</button>
+      </div>
+     </div>    
+    <div id="home" class="tabcontent">
+      <div id='home_para'>
+        <p  id = 'intro_1'><strong style='font-size:xx-large'>HELLO,<br> I'm RAKESH </strong> <br>
+        <strong style='font-size: large;font-weight: normal; '> I'm available for work.</strong><br><br>
+        <strong style='color:#000000;font-weight: 100;line-height: 3vw;'>I would describe myself as a passionate <strong>programmer</strong> and a professionally committed person. I am actively seeking a <strong>full-time</strong> or an internship 
+          opportunity to utilize my expertise, in achieving the company's goal.</strong>
+        </p>
+        <p class = 'desc_exp' >
+          <u style='color:#72ab00;font-weight: normal;'>Available for</u>:<br>
+          <strong style='font-weight: lighter;line-height: 2.3vw;'> ● Associate Consultant<br>● Software Developer<br>● Machine Learning/Security Engineer.</strong><br><br>
+          <u style='color:#72ab00;font-weight: normal;'>Experience</u>: <strong>2 Years 8 months</strong><br>
+          <strong style='font-weight: lighter;line-height: 2.3vw;'> ● Former <strong>Associate Consultant</strong><br>● Former <strong>Senior Software/ Software</strong> Engineer</strong> <br>at Capgemini.
+        </p>
+        <p class = 'desc_exp'>
+         <u style='color:#72ab00;font-weight: normal;'>Contact</u>: <br>
+         <strong style='margin-top:1px;font-weight: lighter;line-height: 2.3vw;'> <a href="mailto:rakesh.nagaraju@sjsu.edu">rakesh.nagaraju@sjsu.edu</a>
+          
+          <br><a href="mailto:rakenju@gmail.com">rakenju@gmail.com</a>
+          
+          <br><u style='color:#72ab00;font-weight: normal;'><br>Phone</u>:<br> +1 669(288)-4508
+          <br><u style='color:#72ab00;font-weight: normal;'><br>Website</u>: <br> <a href="https://rakesh-nagaraju.github.io"> https://rakesh-nagaraju.github.io</strong></a>
+        </p>
+      </div>
+        
+      <section id="media">
+        <article><h3>About Me:</h3>
+          
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img src="./images/nitte.jpg" style="width:100%">
+              <div style='font-family:cursive;font-size:2vw;font-weight:bolder;color:#ffffff;'class="text">My Undergrad College @NMIT</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <img src="./images/raki_grad.jpg" style="width:100%">
+              <div style='font-family:cursive;font-size:2vw;font-weight:bolder;color:#ffffff;'class="text">My Graduation</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <img src="./images/capg.jpg" style="width:100%">
+              <div style='font-family:cursive;font-size:2vw;font-weight:bolder;color:#ff7f34;'class="text">My Office in Bangalore @Capgemini</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 4</div>
+              <img src="./images/collage.jpg" style="width:100%">
+              
+            </div>
+
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span> 
+            </div>
+        </article>
+        
+      </section>
+      <h3>Complete details of programming skills:</h3>
+      <div style='box-shadow: -1px 1px 3px 2px #444d54;' class = 'skills'>
+       <table>
+           <t>
+               <td><strong>Languages/ Frameworks:</strong></td>
+               <td>Python, Java, C, C++, JCL, COBOL, SQL, OpenMP, Shell Scripting, JUnit.</td>
+           </tr>
+           <tr>
+            <td><strong>Front-End:</strong></td>
+            <td>JavaScript, HTML, CSS, CICS, Swift.</td>
+           </tr>
+           <tr>
+            <td><strong>Wireless Networking:</strong></td>
+            <td>2G, 3G, 4G, 5G, wireless sensors, IoT.</td>
+           </tr>
+           <tr>
+            <td><strong>Big-Data:</strong></td>
+            <td>Apache Hadoop, Apache Spark and Apache Hive, Flume, HBase.</td>
+           </tr>
+           <tr>
+            <td><strong>DBMS:</strong></td>
+            <td>Microsoft SqlServer, DB2, Oracle, MySql, Postgresql.</td>
+           </tr>
+           <tr>
+            <td><strong>Cloud:</strong></td>
+            <td>OpenStack and AWS EC2, RDS, S3.</td>
+           </tr>
+           <tr>
+               <td><strong>ML/Security:</strong></td>
+               <td>GAN’s, CNN, ML/ Cipher algorithms, Scipy, TensorFlow, Keras, Pytorch, OpenCV, OpenCL.</td>
+           </tr>
+           <tr>
+               <td><strong>Tools:</strong></td>
+               <td>Grpc, Zookeeper, CUDA, Android Studio, Git, MS Office, macOS, Windows, Linux/Ubuntu, Jenkins, Maven,
+                Visual Studio Code, Eclipse IDE, MySQL Workbench, Android Studio, MS Office, Zeke Scheduler.</td>
+           </tr>
+           <tr>
+             <td><strong>Others:</strong></td>
+             <td> DB2, Sqoop, Hadoop, Hive, Apache Spark, Zookeeper, sklearn, CUDA, Tensorflow, Keras, Jenkins.</td>
+           </tr>
+     
+       </table>
+       </div>
+      <aside>     
+        <div class = 'aboutme'>
+        <p style='margin:0;line-height:32px;padding-left:15px;'> <br>● I am a CS engineer hailing from Bangalore and currently living in San Jose. Born in 1994,
+
+           <br>the field of computer science fascinated me to take it up as my major during Bachelor's and later as my <strong>Profession</strong>. 
+           <br>● Currently, I have enrolled to a Master's degree at <strong>San Jose State Univerity</strong>, 
+           <br>which is located at the 
+           <strong>heart</strong> of the <strong>Silicon Valley</strong> with the intention
+           of learning emerging technologies and work on <br> various projects. 
+           <br> ● My key interest is <strong>Machine Learning, Cybersecurity</strong>.
+           <br> ● This <strong>website</strong> show cases my complete <strong>profile</strong> while demonstrating my work in the amazing field of Computer Science.
+           <br>● Apart from Academics, I love <strong>Travelling, Cooking, Sports</strong>. 
+           <br>● Recently, I started learning Piano/ Keyboard.
+            <br>● As much as I am comitted to my work, I give equal importance to my Personal life.
+        </p>
+      </div>
+      
+      <h3>ACTIVITIES:</h3>
+       <div class="activities">
+         <li>I am interested in knowing about trending technologies and work on creative projects</li>
+         <li>Additionally, I enjoy watching TED talks and videos related to Innovations. </li>
+         <li>I also love playing sports such as: Cricket, Soccer, Badminton, Chess.</li>
+         <li>Also love to Cook and workout in Gym.</li>
+       </div> 
+      </aside><br>
+      <div class='aboutme'> <hr>Kindly do check out the other tabs for more info.<hr></div>
+     
+    </div>
+    <div id="education" class="tabcontent">
+        <div id = 'edu_link'>
+        <h3 class = 'edu_tag'>EDUCATION PROFILE</h3>
+      </div>
+        <main>
+      <div>
+        <div class="edu_conts">
+        <section id="edu_home">
+
+         <p> Currently pursuing <strong>Master's </strong> degree in <strong>Computer Science</strong> at <strong>San Jose State University</strong> with a <strong>GPA</strong> of <strong style='color:#bb0000;'>3.57</strong>.
+            <hr> <div style="color:#72ab00;font-weight: normal;"> Specialization :</div>Machine Learning, Artificial Intelligence, Cryptography and Information Security.<br>
+         <hr><div style="color: #72ab00;font-weight: normal;">Relevant Coursework:</div> Machine Learning, Artificial Intelligence, Distributed Computing, Cryptography and
+             Information Security, Database System principles, Design and Analysis of Algorithms.
+         </p>
+        
+        </div>
+        
+        </section>
+        <div style='color:black' id='edu_two'> Additionally, I did my <strong>Bachelor's</strong> in <strong>Computer Science</strong> at NMIT in India.
+          <hr> My hands-on experience and knowledge include: Data structures and Algorithms, Database/ Advanced-Database Management, Data Structures, Object-Oriented concepts, Python, JAVA/J2EE. 
+        <hr> For more information, academic performances, kindly check the table below.
+        </div>
+        </div>
+        <aside>
+          <h4>Detailed view:</h4>
+          <div id = 'edu_table'>
+          <table >
+              <tr><strong>
+                  <th>Course</th>
+                  <th>University</th>
+                  <th>Institute</th>
+                  <th>GPA/CGPA/Percentage</th>
+                  <th>Year of Completion</th>
+                  <th>Location</th>
+                 </strong>
+              </tr>
+              <tr>
+                 <td>Masters (M.S) in Computer Science</td>
+                 <td>San Jose State University</td>
+                 <td>San Jose State University</td>
+                 <td>3.57</td>
+                 <td>Estimated: May 2021</td>
+                 <td>San Jose, California, United States</td>
+             </tr>
+             <tr>
+                 <td>Bachelors of Engineering (B.E) in Computer Science</td>
+                 <td>Visvesvaraya Technological University</td>
+                 <td>Nitte Meenakshi Institute of Technology</td>
+                 <td>8.05 (out of 10)</td>
+                 <td>May 2016</td>
+                 <td>Bangalore, Karnataka, India</td>
+             </tr>
+             <tr>
+                 <td>Pre-boards (Class 12)</td>
+                 <td>Karnataka State Board</td>
+                 <td>CMR National Junior College</td>
+                 <td> 76.0 %</td>
+                 <td>May 2012</td>
+                 <td>Bangalore, Karnataka, India</td>
+             </tr>
+             <tr>
+                 <td>High School</td>
+                 <td>Karnataka State Board</td>
+                 <td>CMR High School</td>
+                 <td> 83.2 %</td>
+                 <td>May 2010</td>
+                 <td>Bangalore, Karnataka, India</td>
+             </tr>
+          </table>
+          </div><br>
+         <div style='color:#000000' class='aboutme'>
+         <p style='padding-left:15px;line-height:30px'>● I will always cherish the memories and experience gained at all my institutions. 
+          <br> ● Also I am grateful for all the support and opportunities that the Professor have provided me.
+          <br> ● The Projects tab, show cases that various projects I have been a part of, feel free to have a look.
+          
+          <div style='font-weight:lighter'class='aboutme'> <br><hr>Kindly do check out the other tabs for more info.<hr></div>
+         </p>
+        </div>
+        </aside>
+      </main>
+    </div>
+    
+    <div id="profession" class="tabcontent">
+     <div id ='prof_link'>
+     <h3 class = 'prof_tag'>Professional Experience</h3>
+    </div>
+     <main>
+       <section id="prof_para">
+         <article>
+        <p>● I have a total work experiece of about <strong> 2 Years 8 months</strong>
+          <br>● Experienced in developing <strong>Front-end</strong> UI and <strong>Back-end</strong> applications
+          <br>● Experience in <strong>Agile</strong> methodology of development
+          <hr><div style='display:inline-block;font-weight: normal;color:#72ab00;'>Technology :</div> JAVA, Python, COBOL, CICS, JCL, DB2
+          <br><div style='display:inline-block;font-weight: normal;color:#72ab00;'>Expertise :</div> Software development in <strong>Agile</strong> methodology
+          <br><div style='display:inline-block;font-weight: normal;color:#72ab00;'>Roles :</div> Associate Consultant, Senior Software Engineer, Software Engineer
+        </p>
+      </section>
+        <p id = 'prof_desc'><strong style='font-weight: unset;text-decoration:underline;font-size: x-large;color:#72ab00'>Career Summary:</strong><br><br> Ex capgemini employee, professionally committed developer, 
+          with expertise in Front-end UI, Back-end software developement through Agile methodoly, Unit Testing, Requirement Analysis, Production support.
+          <br><br> For more info on my Roles and experience check below.
+          <br><br><u style='color:#72ab00;font-weight: normal;line-height: 2.3vw;'>Experience letter</u>:
+          <a title="Download File: Experience letter" href="./files/Exp_letter_CapG.pdf" download target=_blank>  <img style='margin-left:1vw;'src="./images/pdf.png" width="25vw" height="25vw"/><u style='font-size:smaller;color: #000000;'>File type : pdf</u></a>
+        
+        </p>
+        
+       
+       <aside id ="prof_skills">
+         <h3 class="prof_tag" style="margin:0; padding-bottom:7px; margin-top: 5%;">Detailed Career History:</h3>
+         <div class='conts'>
+         <div id="prof_head" style="text-align:center;padding-left: 7px"><strong>Capgemini India Pvt Ltd, Bangalore, India</strong>  - (November 2016 to August 2019) </div>
+         <div style='border-left: 2px solid #8a1818;
+         padding-left: 12px;'>● Worked as a Software developer to develop online and backend DB2 applications using JAVA, and
+          Mainframes. <br>
+          ● <strong>Technical Aspect</strong>: I worked as a Lead Engineer to build banking applications.</div>
+         <div id = 'prof_num_tag' style='font-weight: bold;' > <br>&#x2192; As a Associate Consultant</div>
+           <div id = 'prof_one'>
+                  <ul>
+                  <li>Experience working in an Agile/Scrum development process. </li>
+                  <li>Performing unit and regression testing, White box and Black box testing.</li>
+                    <li>Provided QA Assistance, UAT support, created functional designs and User story estimation by analyzing Business Requirements</li>
+                    <li>Building and Running DB2 Server queries.Developed Full-stack Banking applications including: Front-end Screens, Backend appliations.</li>
+                  <li>Experienced with handling a team in building applications through Agile methodology. </li>
+                  <li>Experienced with Sprint and User story creation/estimation through Rally, QA Assistance .</li>
+                </ul>
+           </div>
+         <div id = 'prof_num_tag' style='font-weight: bold;' > &#x2192; As a Senior Software Engineer</div>
+         <div id = 'prof_two'>
+              <ul>
+                <li>Indulged in major enhancements to existing applications, related to DB2 in Agile methodology.</li>
+              <li>Debugging existing code to improve performance and handle production issues.</li>
+              <li>Worked on designing Reports, Unit Testing, QA support.</li>
+              <li>Automated tasks to manage monthly metrics, identifying and handling repetitive CR’s using Python.</li>
+              <li>Handled banking applications related Production environment by solving P2 and P3 tickets in HPSM later Service now.</li>
+              </ul>
+            </div>
+          <div style='font-weight: bold;' id = 'prof_num_tag'> &#x2192; As a Software Engineer</div>
+            <div style='border-bottom-left-radius: 10px;' id = 'prof_three'>
+              <ul>
+              <li>Built software applications with the Waterfall model.</li>
+              <li>Performed documentation, review checklists, and generated yearly XML Reports.</li>
+              <li>Trained in JAVA, Mainframes, and got certified in “IBM certified DB2–9 Fundamentals”.</li>
+              </ul>
+            </div>
+            <div style='margin-top: 25px' id="prof_head" style="text-align:justify;padding-left: 7px"><strong>Biztime India : Bangalore, India</strong> - (May-2015 to July-2015)</div>
+            
+            <div style='font-weight: bold;' id = 'prof_num_tag'> &#x2192; Software Intern </div>
+                   <div style='border-bottom-left-radius: 10px;' id = 'prof_one'>
+                     <ul>
+                     <li> Built a website model for an education institute using HTML, CSS and Javascript.</li>
+                    </ul>
+                   </div>
+      </div>
+       </aside>
+         <div style='color:#000000' class='aboutme'>
+         <p style='padding-left:15px;line-height:30px'> 
+           ● Apart from Profession, I am very keen in learning new technologies and working on new,
+            creative projects.<br>
+           ● Feel free to scroll to Projects tab and have a look at various projects I have worked on.</p>
+         </p>
+        </div>
+        <div class='aboutme'> <hr>Kindly do check out the other tabs for more info.<hr></div>
+     </main>
+    </div>
+    <div id="project" class="tabcontent">
+      <div id = 'project_link'>
+      <h3>Project Profile</h3>
+      </div>
+      <main>
+        <div>
+          <div class="edu_conts">
+          <section>
+            <p>● Hi, I have worked on variety of creative and unique Projects.
+              <br> ● I have had the opportunity to work with many brilliant Professors and their 
+            inputs have certainly helped me evolve as an efficient developer.
+            <br> ● Kindly check out my work below!
+            <hr> <strong style='margin:0;font-weight: normal;color:#72ab00'> Language/ Concepts learned:</strong>
+              <br> Python, JAVA, C, HTML, CSS, Javascript, ReactJS, Swift, Unity 3D, Android Studio 
+            </p>
+          </div>
+          </section>
+          <div id='edu_two'> 
+            <p> <strong style='margin:0;font-size:large;font-weight: normal;color:#72ab00'> Technology Used:</strong> <hr>
+              <strong style='font-weight: normal;
+            color: #dd7639;line-height:2.5vw;'>Machine Learning, Artificial Intelligence,<br> Hadoop, Spark, Encryption/Decryption, 
+            <br> Distributed Computing, <br> Algorithms, <br> Parallel Processing, <br> Wireless Mobile Networking. 
+            <br> CUDA, Big Data(Hadoop/Spark), Security, GRPC, Zookeeper, Cloud, Malware detection.</strong>
+            </p>
+          </div>
+        </div>
+        <h3>Relevent Skills:</h3>
+        <div class='rel_skill'>
+        <table>
+          <tr>
+          <td class = 'rel_skill_1'>&#8226; <a style='color:black; font-size:medium;text-decoration:none;'href="#ml" >Python</a></td>
+          <td class = 'rel_skill_1'>&#8226; <a style='color:black; font-size:medium;text-decoration:none;'href="#ml" >Machine Learning</td>
+          <td class = 'rel_skill_1'>&#8226; <a id='sde' style='background-color:inherit;color:black; text-decoration:none;  font-size:medium;'onclick="openCity(event, 'profession');myFunction()" >Software Development (Agile/ Waterfall)</td>
+          <td class = 'rel_skill_1'>&#8226; <a style='color:black; font-size:medium;text-decoration:none;'href="#crypto" >Cryptography and Information Security</td>
+          </tr>
+          <tr>
+          
+          <td class = 'rel_skill_1'>&#8226; <a style='color:black; font-size:medium;text-decoration:none;'href="#ai" >Artificial Intelligence</a></td>
+          <td class = 'rel_skill_1'>&#8226; <a style='color:black; font-size:medium;text-decoration:none;'href="https://rakesh-nagaraju.github.io" >Web Development- Full stack</a></td>
+          <td class = 'rel_skill_1'>&#8226; <a style='color:black; font-size:medium;text-decoration:none;'href="#crypto">JAVA and  J2EE</a></td>
+          <td class = 'rel_skill_1'>&#8226; <a style='color:black; font-size:medium;text-decoration:none;'href="#db" >Data Analytics (Hadoop, Spark)</a></td>
+        </tr>
+        <tr>
+          
+          <td class = 'rel_skill_1'>&#8226; <a style='color:black; font-size:medium;text-decoration:none;'href="#dc" >Distributed Computing</a></td>
+          <td class = 'rel_skill_1'>&#8226; <a style='color:black; font-size:medium;text-decoration:none;'href="#algo" >Algorithms</a></td>
+          
+        </tr>
+        </table>
+      </div>
+        <div>
+          <h3 id = 'ml'>My Projects:</h3>
+          <div class='proj_cont_h'>
+            <h4 id='proj_name' style="z-index: 1;">Machine Learning Projects</h4>
+            <div class='proj_cont'>
+              
+              
+              <p style="border-bottom: 2px solid #8a1818;border-bottom-right-radius:10px; display: inline-block;padding-right:8px;font-weight: normal;"> &#x2192; 1. Malware Classification Using GANS - Master's Final Year Project </p> Completion: <strong>Expected, Spring 2021</strong>.
+              
+              
+              <div>
+              <div class='dum'>
+                  
+                  <p> The main idea of this project is use Malware samples as Images and apply GAN's for classification. 
+                    The reason for converting malware to images is because the cost of extracting and analyzing malware samples such as: opcodes is very costly.
+                    And since GAN's are the next big thing in Machine Learning and also good with images, I plan to use GAN's.</p><hr>
+                  <p> The project has been started in Fall 2020 under the guidance of Professor Mark Stamp, SJSU and is expected to finish by Spring 2021.
+                    </p>
+              </div>
+              </div>
+              <p style="border-bottom: 2px solid #8a1818;border-bottom-right-radius:10px; display: inline-block;padding-right:8px;font-weight: normal;"> &#x2192; 2. Analysis of various algorithms for Breast Cancer cell classification </p> Completed:<strong> Fall 2019</strong>
+              
+              <div>
+              <div class='dum'>
+                  <p> In this project, we implement seven different<strong> Machine Learning algorithms</strong> for Breast cancer classificaation using Python.
+                    <br>● Algorithms include <strong>Support Vector Machine(SVM), Logistic Regression, K-nn, Random Forest, Decision Tree, Naive Bayes </strong> and also a <strong>Neural Network</strong>.
+                    <br>● Dataset: <strong>Breast cancer</strong> dataset from Kaggle.
+                    <br>● Accuracy, Area under the curve(AUC) for PR curves and ROC curves are plotted to analyze performance. 
+                
+                     <hr id = 'crypto'>Github Link: <a target="_blank" href='https://github.com/Rakesh-Nagaraju/Analysis-of-ML-algorithms-for-accurate-Breast-Cancer-Classification.git'>https://github.com/Rakesh-Nagaraju/Analysis-of-ML-algorithms-for-accurate-Breast-Cancer-Classification.git</a>
+                    </p>
+                  
+              </div>
+              </div>
+              </div>
+           
+            <hr>
+            <h4 id='proj_name' style="z-index: 1;">Cryptography and Information Security</h4>
+            <div class='proj_cont'>
+              <p style="border-bottom: 2px solid #8a1818;border-bottom-right-radius:10px; display: inline-block;padding-right:8px;font-weight: normal;"> &#x2192; 1. Various Ciphertext algorithms. </p> Completed:<strong> Spring 2020</strong>
+              
+              <div>
+              <div class='dum'>
+                  <p> As a part of Cryptography course succesfully understood the concepts and implemented following :</p>
+                  <p> ● Simple substitution cipher, Double Transposition cipher, A5/1 cipher, Tea cipher, Cmea cipher,<br> Knapsack cipher, Pkzip cipher, RSA cipher, Rabin cipher.
+                    </p>
+        <hr id = 'ai'>
+        Github Link: <a target="_blank" href='https://github.com/Rakesh-Nagaraju/Cryptography_projects.git'> https://github.com/Rakesh-Nagaraju/Cryptography_projects.git </a>
+        
+                  
+              </div>
+              
+              </div>
+              </div>
+              <br> 
+              <hr>
+              <h4 id='proj_name' style="z-index: 1;">Artificial Intelligence</h4>
+            <div class='proj_cont'>
+              
+              <p style="border-bottom: 2px solid #8a1818;border-bottom-right-radius:10px; display: inline-block;padding-right:8px;font-weight: normal;"> &#x2192; 1. Pedestrian Detection using Faster RCNN with Repulsion Loss : </p> Completed:<strong> Fall 2019</strong>
+              
+                <div>
+                <div class='dum'>
+              <p> ● In Real-world scenarios, detecting Pedestrians can be a challenging task
+                especially in a crowd, as many Individual pedestrians can gather around and occlude each other. 
+                <br> ● In this Project, we design a model which detects Pedestrians by utilizing Repulsion Loss, based on faster RCNN with the intention
+                improving efficiency. <br>●  We also compare the Mean Average Precision, PR curves for both Repulsion
+                Loss implemented on SSD (Single Shot Detector) and Repulsion Loss on Faster RCNN.</p>
+                <hr id = 'db'>
+                Github Link:
+                <a target="_blank" href='https://github.com/Rakesh-Nagaraju/Pedestrian-Detection-using-Faster-RCNN-with-Repulsion-Loss'>https://github.com/Rakesh-Nagaraju/Pedestrian-Detection-using-Faster-RCNN-with-Repulsion-Loss</a>
+              </div>            
+              </div>
+              </div>
+         
+              <hr>
+              <h4 id='proj_name' style="z-index: 1;">Database Projects</h4>
+            <div class='proj_cont'>
+              
+              <p style="border-bottom: 2px solid #8a1818;border-bottom-right-radius:10px; display: inline-block;padding-right:8px;font-weight: normal;"> &#x2192; 1. Twitter Data Analysis on COVID19 using Hadoop Flume Hive and Spark :</p> Completed:<strong> Spring 2020</strong>
+              
+              <div>
+              <div class='dum'>
+                  <p> ● In this project we use the Hadoop framework to analyze unstructured Twitter data and perform sentiment and trend analysis using Hive on MapReduce and Spark on keyword “COVID19”. 
+                    <br>● We then compare the Hive and Spark approaches to determine the best performance.
+                    <br>● First, we Sign up a Twitter developer account and retrieve COVID-19 related Twitter data using Flume and store it in Hadoop HDFS.
+                    <br>● Perform Sentiment Analysis by creating Hive tables and quering the database.
+                    <br>● Perform <strong>Trend Analysis</strong> using spark by creating sparkcontext and filter out Trends based on re-tweets and likes.
+                    <br>● Compare both the Hive and Spark approach by performing Volume Testing and Sentiment Analysis on the data available.</p>
+                    <hr id = 'algo'>
+                    Github
+                    <a target="_blank" href='https://github.com/Rakesh-Nagaraju/Twitter-Data-Analysis-on-COVID19-using-Hadoop-Flume-Hive-and-Spark..git'>https://github.com/Rakesh-Nagaraju/Twitter-Data-Analysis-on-COVID19-using-Hadoop-Flume-Hive-and-Spark..git</a>
+              </div>
+              
+              </div>
+              </div>
+              <br> 
+              <hr>
+              <h4 id='proj_name' style="z-index: 1;">Design and Analysis of Algorithms</h4>
+              <div class='proj_cont'>
+                
+                <p style="border-bottom: 2px solid #8a1818;border-bottom-right-radius:10px; display: inline-block;padding-right:8px;font-weight: normal;"> &#x2192; 1. Analysis of K-person Asymmetric TSP Problem using hybrid Ant Colony approach : </p> Completed:<strong> Summer 2020</strong>
+                
+                <div>
+                <div class='dum'>
+                  
+                    <p> ● In this project, we consider a variant of the well know Travelling Salesman problem (TSP). 
+                      In particular we consider the <strong>k-person Asymmetric TSP known as the ‘k-ATSPP’</strong> problem. 
+                      Suppose we have an Asymmetric graph G = (V, A) with two distinguished nodes s, t ∈ V.  
+                      <br>●  Our goal is to find the <strong>k paths </strong>such that it <strong>starts from s</strong> and <strong>ends at t</strong> where union of all k paths <strong>cover all the nodes</strong> only once. 
+                      
+                      <br>● Main result is a <strong>modified Ant-Colony Optimization (ACO)</strong> that includes <strong>3-OPT for optimization</strong> and <strong>Genetic algorithm (GA)</strong> to create new <strong>improved paths</strong>. 
+                      <br>● We <strong>test</strong> this algorithm against a <strong>TSPLIB dataset</strong> against<strong> various test cases</strong>. 
+                      <br>● The <strong>results</strong> are <strong>compared</strong>, and <strong>time complexity</strong> is <strong>analyzed</strong>. 
+                      <br>● The algorithm <strong>performs well</strong> with <strong>large data</strong> while maintaining <strong>optimal to sub-optimal</strong> quality of the<strong> results</strong>. 
+                      <br>● Finally, we also <strong>analyze the reasons</strong> for achieving such <strong>results</strong>.
+                      </p>
+                      <hr id = 'dc'>
+                      Github Link: 
+                      <a target="_blank" href='https://github.com/Rakesh-Nagaraju/Analysis-of-K-ATSPP-problem-using-hybrid-Ant-Colony-approach.git' > https://github.com/Rakesh-Nagaraju/Analysis-of-K-ATSPP-problem-using-hybrid-Ant-Colony-approach.git </a>
+                    
+              </div>
+              
+              </div>
+              </div>
+              
+              <hr>
+              <h4 id='proj_name' style="z-index: 1;">Distributed Computing</h4>
+              <div class='proj_cont'>
+                
+                <p style="border-bottom: 2px solid #8a1818;border-bottom-right-radius:10px; display: inline-block;padding-right:8px;font-weight: normal;"> &#x2192; 1. Chain Replication Using Python Kazoo. : </p>Completed:<strong> Fall 2019</strong>
+                
+                <div> 
+                <div class='dum'>
+                  
+                    <p> ● In this project we implement chain replication. Specifically, we will be implementing a replica that will form part of a chain replication chain.
+                      We will deal with links (replicas) going away and new links arriving as the server connected in a network may be the head or the tail or just a replica in the chain.
+                      <br>● For our implementations, we will use grcp with the proto file chain.proto(in the repository) to interoperate. 
+                      </p>
+                      <hr>
+                      Github Link: <a target="_blank" href='https://github.com/Rakesh-Nagaraju/Chain-Replication-Using-Python-Kazoo..git'>https://github.com/Rakesh-Nagaraju/Chain-Replication-Using-Python-Kazoo..git</a>
+                      
+                  
+              </div>
+              
+              </div>
+              <p style="border-bottom: 2px solid #8a1818;border-bottom-right-radius:10px; display: inline-block;padding-right:8px;font-weight: normal;"> &#x2192; 2. ABD Protocol : </p> Completed:<strong> Fall 2019</strong>
+              
+                <div> 
+                <div class='dum'>
+                 
+                    <p> ● In this project we implement ADB protocol for succesfull client-server distributed computing.
+                      </p><hr>
+                      Github Link: <a target="_blank" href = 'https://github.com/Rakesh-Nagaraju/ADB_protocol_using_python_and_google_grpc.git'>https://github.com/Rakesh-Nagaraju/ADB_protocol_using_python_and_google_grpc.git</a>
+                     
+                </div>
+                
+                </div>
+                <p style="border-bottom: 2px solid #8a1818;border-bottom-right-radius:10px; display: inline-block;padding-right:8px;font-weight: normal;"> &#x2192; 3. RAFT : </p>Completed:<strong> Fall 2019</strong>
+                
+                <div> 
+                <div class='dum'>
+                  
+                    <p> ● In this project we implement RAFT protocol for successfull distributed Computing. Specifically, we will be implementing a replica that will form part of a chain replication chain.
+                      <br>● Raft is a consensus algorithm that is 
+                      designed to be easy to understand. 
+                      <br>● It's equivalent to Paxos in fault-tolerance and performance. 
+                      
+                      <hr>
+                      Github Link: <a target="_blank" href = 'https://github.com/Rakesh-Nagaraju/RAFT_python_implementation_using_google_grpc.git'> https://github.com/Rakesh-Nagaraju/RAFT_python_implementation_using_google_grpc.git </a> 
+                     
+                </div>
+                
+                </div>
+              </div>
+          </div>
+        </div>
+      </main>
+      <div style='color: black;
+      font-weight: lighter;'class='aboutme'> <hr>Kindly do check out the other tabs for more info.<hr></div>
+    </div>
+    
+    <div id="awards" class="tabcontent">
+      <h3 id='tag_ach'>Cerfication and code Competitions:</h3>
+      <br>
+      <div id='competitions'>
+      <ol>
+        <li>I am officially certified in <strong>“IBM certified DB2–9 Fundamentals”</strong>.</li>
+        <li>My passion has driven me to participate in various <strong>coding competitions</strong> such as: Google Hash Code 2020, Google Kick Start, Hackerank, Kaggle competition.</li>
+        <li>I have also had the opportunity to volunteer for the "Food Pantry" at my University.</li>
+      </ol>
+      </div>
+      <br>
+      <h3>Letter of Appreciation:</h3> 
+      <br>
+      <div id="competitions">
+        My Pofessor's and my Manager have said a couple of things about me, please click below to know more:
+        <ol>
+       <hr><li style='text-align: center;'>Adarsh Sadashiva (Team Leader/TSA/Manager, Capgemini) <br>
+          <a title="Download File: LOR_Adarsh" href="./files/Adarsh_CG.pdf" target=_blank> 
+            <img src="./images/LOR_icon_1.png" width = 25vw height = 25vw/><u style='color: #000000;'><br>File type:pdf<br>File size: 449 Kb</u></a>
+        </li>
+       <hr><li style='text-align: center;'>Prof Sujatha Joshi (Phd, NMIT) <br>
+        <a title="Download File: LOR_Sujatha_joshi" href="./files/sujatha_joshi.pdf" target=_blank> 
+          <img src="./images/LOR_icon_1.png" width=25vw height=25vw/><u style='color: #000000;'><br>File type:pdf<br>File size: 571 Kb</u></a>
+        </li>
+      <hr><li style='text-align: center;'>Prof Mohan BA (Phd, NMIT)<br>
+       <a title="Download File: LOR_Mohan" href="./files/MohanBA.pdf" target=_blank> 
+        <img src="./images/LOR_icon_1.png" width=25vw height=25vw/><u style='color: #000000;'><br>File type:pdf<br>File size: 501 Kb</u></a>
+      </li><hr>
+     </ol>
+    </div>
+    <br>
+      <div id="edu_act">
+        <ul>
+       <li>I was promoted twice in my previous company at <strong>Capgemini</strong>
+         (as Senior software Engineer and as a Assosciate Consultant). <br>
+         I consider this as a reward for my performance.</li>
+       <li>I was also rewarded as 'Star Employee of the Quarter' in the Q2 of 2017 at Capgemini.</li>
+       <li>I am also good in Painting and have received many awards for the same.</li>
+     </ul>
+    </div>
+    <div style='color: black;
+      font-weight: lighter;'class='aboutme'> <hr>Kindly do check out the other tabs for more info.<hr></div>
+    </div>
+    <div id="cv" class="tabcontent">
+      <h3 style='font-weight: lighter;text-align: center;'>Wanna checkout my Resume, Please click below to download.</h3>
+      <a title="Download File: Rakesh_Nagaraju_CV" href="./files/Rakesh_new_Resume.docx.pdf"  target=_blank> 
+        <img style='left: 47%;height: 7vw; margin-top: 2%;
+        left: 47%; width: 7vw;'src="./images/resume_icon.png"/><br><u style='font-size:smaller;left:47%;color: #000000;'><br>File type:pdf<br>File size: 75 Kb</u></a>
+      <div style='color: black;
+      font-weight: lighter;'class='aboutme'> <hr>Kindly do check out the other tabs for more info.<hr></div>
+    </div>
+    
+    <footer >
+       <p style="font-size: xx-small;">This website is designed to show case my profile in detail and is developed using: HTML, CSS, JavaScript.</p> 
+         <hr><footer style="text-align: right" id="about" class = 'a'> <small>&copy; Copyright 2020, @RakeshNagaraju</small> </footer> 
+     </footer>
+   </body>
+</html>
