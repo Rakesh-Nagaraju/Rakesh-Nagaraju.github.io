@@ -470,6 +470,8 @@ html {
   width: 100%;
   text-align: center;
   display: inline-block;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .overlay-content p {
   margin: 0;
